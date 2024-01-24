@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using YourProjectName.Services;
-using YourProjectName.Models; // Assuming this is where your BillData model is located
+using QuickBooks.Services;
+using QuickBooks.Models; // Assuming this is where your BillData model is located
 using System.Threading.Tasks; // For asynchronous method
 
 namespace QuickBooks.Controllers
