@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9Ym8LLwWIrQUaiWZutg7QGVd9BgiJKYmRYHmz6im2cutn7z0fU20VupI72FHIue8xcI2fqW5MlBT+88zk8Ralg==",
+  "dgSpecHash": "fFUPtPeH0clA7ZO1fz1lTX9LKvk3Dy6MvYoOYnqnh9up5tZgZQTebo0Nj0N7gvn2kyMpq9k7XX+qBO7wbqU5hw==",
   "success": true,
   "projectFilePath": "/Users/kailee/pdfscraper/QBintegration/QuickBooks.csproj",
   "expectedPackageFiles": [
-    "/Users/kailee/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.0/microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
-    "/Users/kailee/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.0/microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
-    "/Users/kailee/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/5.0.0/microsoft.aspnetcore.mvc.newtonsoftjson.5.0.0.nupkg.sha512",
+    "/Users/kailee/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.10/microsoft.aspnetcore.authentication.jwtbearer.5.0.10.nupkg.sha512",
+    "/Users/kailee/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.10/microsoft.aspnetcore.jsonpatch.5.0.10.nupkg.sha512",
+    "/Users/kailee/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/5.0.10/microsoft.aspnetcore.mvc.newtonsoftjson.5.0.10.nupkg.sha512",
     "/Users/kailee/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/kailee/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.7.1/microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
     "/Users/kailee/.nuget/packages/microsoft.identitymodel.logging/6.7.1/microsoft.identitymodel.logging.6.7.1.nupkg.sha512",
@@ -17,20 +17,9 @@
     "/Users/kailee/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "/Users/kailee/.nuget/packages/system.identitymodel.tokens.jwt/6.7.1/system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
     "/Users/kailee/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "/Users/kailee/.nuget/packages/microsoft.netcore.app.ref/6.0.26/microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
     "/Users/kailee/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.26/microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
-    "/Users/kailee/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.26/microsoft.netcore.app.host.osx-x64.6.0.26.nupkg.sha512",
-    "/Users/kailee/.nuget/packages/microsoft.netcore.app.ref/6.0.26/microsoft.netcore.app.ref.6.0.26.nupkg.sha512"
+    "/Users/kailee/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.26/microsoft.netcore.app.host.osx-x64.6.0.26.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNetCore.Authentication.JwtBearer' 5.0.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-q7cg-43mg-qp69",
-      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

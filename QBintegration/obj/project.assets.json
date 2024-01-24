@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.0": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.10": {
         "type": "package",
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.7.1"
@@ -21,7 +21,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Microsoft.AspNetCore.JsonPatch/5.0.0": {
+      "Microsoft.AspNetCore.JsonPatch/5.0.10": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -38,10 +38,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/5.0.0": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/5.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "5.0.0",
+          "Microsoft.AspNetCore.JsonPatch": "5.0.10",
           "Newtonsoft.Json": "12.0.2",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
@@ -215,10 +215,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.0": {
-      "sha512": "26WlfJsOB4QP3VsEVu5GGDSGm5wu6ikQqRUOaZ3BUmyGcMWsD28xFxPxFw4OszYgKpj54QYlyec19KcrEGkqDw==",
+    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.10": {
+      "sha512": "WGMw2zDSgLcxSO0jwBPpp20e+LpvAFe/AhUlEQIV5IkPJOIZtEKbF58tRZb/qoAIJ00GfREsSLZAey1OVDI2KA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.0",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -226,14 +226,14 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
         "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
-        "microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.5.0.10.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.JsonPatch/5.0.0": {
-      "sha512": "oy/fvnBHpofNPskGcCrzZv1AhY36YHV0lyWy9NC5ye5eHvEJeJsSKjn2fNk/j1lXOuF13H9qrvZrA9zNkymy5Q==",
+    "Microsoft.AspNetCore.JsonPatch/5.0.10": {
+      "sha512": "mWblC4aXXHBwKqBOW1J9hF/TKLOyyiaBucoEiLFVgmAMLKe2yHFygmWD4mgvlLEr68w+BqO9RelGTrczZpImrg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.jsonpatch/5.0.0",
+      "path": "microsoft.aspnetcore.jsonpatch/5.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -243,14 +243,14 @@
         "lib/net461/Microsoft.AspNetCore.JsonPatch.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.xml",
-        "microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.jsonpatch.5.0.10.nupkg.sha512",
         "microsoft.aspnetcore.jsonpatch.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/5.0.0": {
-      "sha512": "EnGI7CGWaijTuvUxY0lncAp/q/R7HZJCm8NwqiUHxDjrEWYdC/5oOHafVgNjVpk2zLsDesyaGnJundLnw5KNVA==",
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/5.0.10": {
+      "sha512": "qAaZsKeOOJ8EfGPCAnnZqAQ7lnkj+UcglYcrxXvGbnThpV10cRHy7BruQYPpO/hEBtIUd6Ncp31LSK6LPQFHqA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/5.0.0",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/5.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -258,7 +258,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
         "lib/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
-        "microsoft.aspnetcore.mvc.newtonsoftjson.5.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.newtonsoftjson.5.0.10.nupkg.sha512",
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
       ]
     },
@@ -550,8 +550,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.0",
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.0",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.10",
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.10",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -594,11 +594,11 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
-            "version": "[5.0.0, )"
+            "version": "[5.0.10, )"
           },
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
-            "version": "[5.0.0, )"
+            "version": "[5.0.10, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -641,17 +641,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNetCore.Authentication.JwtBearer' 5.0.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-q7cg-43mg-qp69",
-      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }
