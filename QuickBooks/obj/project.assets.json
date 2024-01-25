@@ -561,11 +561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kailee/pdfscraper/QBintegration/QuickBooks.csproj",
+      "projectUniqueName": "/Users/kailee/pdfscraper/QuickBooks/QuickBooks.csproj",
       "projectName": "QuickBooks",
-      "projectPath": "/Users/kailee/pdfscraper/QBintegration/QuickBooks.csproj",
+      "projectPath": "/Users/kailee/pdfscraper/QuickBooks/QuickBooks.csproj",
       "packagesPath": "/Users/kailee/.nuget/packages/",
-      "outputPath": "/Users/kailee/pdfscraper/QBintegration/obj/",
+      "outputPath": "/Users/kailee/pdfscraper/QuickBooks/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kailee/.nuget/NuGet/NuGet.Config"

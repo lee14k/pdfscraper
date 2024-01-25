@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fFUPtPeH0clA7ZO1fz1lTX9LKvk3Dy6MvYoOYnqnh9up5tZgZQTebo0Nj0N7gvn2kyMpq9k7XX+qBO7wbqU5hw==",
+  "dgSpecHash": "7wEQQCMwnvqStS3TLqGUbFkEGwCH8Fpd7fO0f4SZ2czI9QM8iArcC9vRNK5P/7qNgJEa0qbVY5x+UgiHKoDVSw==",
   "success": true,
-  "projectFilePath": "/Users/kailee/pdfscraper/QBintegration/QuickBooks.csproj",
+  "projectFilePath": "/Users/kailee/pdfscraper/QuickBooks/QuickBooks.csproj",
   "expectedPackageFiles": [
     "/Users/kailee/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.10/microsoft.aspnetcore.authentication.jwtbearer.5.0.10.nupkg.sha512",
     "/Users/kailee/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.10/microsoft.aspnetcore.jsonpatch.5.0.10.nupkg.sha512",

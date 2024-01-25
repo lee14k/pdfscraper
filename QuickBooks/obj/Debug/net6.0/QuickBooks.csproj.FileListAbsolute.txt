@@ -5,3 +5,10 @@
 /Users/kailee/pdfscraper/QBintegration/obj/Debug/net6.0/QuickBooks.csproj.CoreCompileInputs.cache
 /Users/kailee/pdfscraper/QBintegration/obj/Debug/net6.0/QuickBooks.MvcApplicationPartsAssemblyInfo.cache
 /Users/kailee/pdfscraper/QBintegration/obj/Debug/net6.0/QuickBooks.sourcelink.json
+/Users/kailee/pdfscraper/QuickBooks/obj/Debug/net6.0/QuickBooks.csproj.AssemblyReference.cache
+/Users/kailee/pdfscraper/QuickBooks/obj/Debug/net6.0/QuickBooks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kailee/pdfscraper/QuickBooks/obj/Debug/net6.0/QuickBooks.AssemblyInfoInputs.cache
+/Users/kailee/pdfscraper/QuickBooks/obj/Debug/net6.0/QuickBooks.AssemblyInfo.cs
+/Users/kailee/pdfscraper/QuickBooks/obj/Debug/net6.0/QuickBooks.csproj.CoreCompileInputs.cache
+/Users/kailee/pdfscraper/QuickBooks/obj/Debug/net6.0/QuickBooks.MvcApplicationPartsAssemblyInfo.cache
+/Users/kailee/pdfscraper/QuickBooks/obj/Debug/net6.0/QuickBooks.sourcelink.json
