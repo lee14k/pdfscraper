@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Net.Http.Headers;
 using Newtonsoft.Json; // Make sure to have this package installed
+using System.Text;
 
 public class QuickBooksService
 {

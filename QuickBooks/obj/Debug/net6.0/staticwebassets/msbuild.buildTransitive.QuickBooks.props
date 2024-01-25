@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/QuickBooks.props" />
+</Project>
