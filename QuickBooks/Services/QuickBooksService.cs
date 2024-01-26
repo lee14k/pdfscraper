@@ -11,8 +11,6 @@ public class QuickBooksService
     private readonly HttpClient _httpClient;
     private readonly string _clientId;
     private readonly string _clientSecret;
-    private string _accessToken;
-    private string _refreshToken;
 
     public QuickBooksService(HttpClient httpClient, string clientId, string clientSecret)
     {
@@ -20,7 +18,6 @@ public class QuickBooksService
         _clientId = clientId;
         _clientSecret = clientSecret;
     }
-
     // Method to set initial tokens manually or retrieve them from secure storage
     public void SetTokens(string accessToken, string refreshToken)
     {

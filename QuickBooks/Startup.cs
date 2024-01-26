@@ -2,30 +2,33 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using YourNamespace.Services; // Replace 'YourNamespace' with your actual namespace
+
 public class Startup
 {
-public void ConfigureServices(IServiceCollection services)
-{
-    services.AddControllers();
-    
-    // Extract QuickBooks configurations
-    var clientId = Configuration["QuickBooks:ClientId"];
-    var clientSecret = Configuration["QuickBooks:ClientSecret"];
+    private readonly IConfiguration Configuration;
 
-    // Register QuickBooksService with HttpClient and configurations
-    services.AddHttpClient<QuickBooksService>(client =>
+    public Startup(IConfiguration configuration)
     {
-        // Optionally configure HttpClient here if needed
-    })
-    .ConfigureHttpClient((serviceProvider, httpClient) =>
+        Configuration = configuration;
+    }
+
+    public void ConfigureServices(IServiceCollection services)
     {
-        // Get clientId and clientSecret from your configuration
-        var quickBooksService = serviceProvider.GetRequiredService<IConfiguration>();
-        var clientId = quickBooksService["QuickBooks:ClientId"];
-        var clientSecret = quickBooksService["QuickBooks:ClientSecret"];
-        return new QuickBooksService(httpClient, clientId, clientSecret);
-    });
-}
+        services.AddControllers();
+
+        // Extract QuickBooks configurations
+        var clientId = Configuration["QuickBooks:ClientId"];
+        var clientSecret = Configuration["QuickBooks:ClientSecret"];
+
+        // Register QuickBooksService with HttpClient and configurations
+        services.AddHttpClient<QuickBooksService>()
+                .ConfigureHttpClient((serviceProvider, httpClient) =>
+                {
+                    var quickBooksService = new QuickBooksService(httpClient, clientId, clientSecret);
+                    return quickBooksService;
+                });
+    }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
