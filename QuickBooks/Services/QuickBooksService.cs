@@ -11,6 +11,8 @@ public class QuickBooksService
     private readonly HttpClient _httpClient;
     private readonly string _clientId;
     private readonly string _clientSecret;
+    private string _accessToken; // Ensure this is declared
+    private string _refreshToken; // Ensure this is declared
 
     public QuickBooksService(HttpClient httpClient, string clientId, string clientSecret)
     {

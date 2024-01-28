@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using YourNamespace.Services; // Replace 'YourNamespace' with your actual namespace
 
 public class Startup
 {
@@ -13,22 +12,24 @@ public class Startup
         Configuration = configuration;
     }
 
-    public void ConfigureServices(IServiceCollection services)
-    {
-        services.AddControllers();
+public void ConfigureServices(IServiceCollection services)
+{
+    services.AddControllers();
 
-        // Extract QuickBooks configurations
-        var clientId = Configuration["QuickBooks:ClientId"];
-        var clientSecret = Configuration["QuickBooks:ClientSecret"];
+    var clientId = Configuration["QuickBooks:ClientId"];
+    var clientSecret = Configuration["QuickBooks:ClientSecret"];
 
-        // Register QuickBooksService with HttpClient and configurations
-        services.AddHttpClient<QuickBooksService>()
-                .ConfigureHttpClient((serviceProvider, httpClient) =>
-                {
-                    var quickBooksService = new QuickBooksService(httpClient, clientId, clientSecret);
-                    return quickBooksService;
-                });
-    }
+    // Register QuickBooksService with HttpClient and configurations
+    services.AddHttpClient<QuickBooksService>()
+            .ConfigureHttpClient(httpClient =>
+            {
+                // Optionally configure HttpClient here if needed
+            });
+
+    // Register clientId and clientSecret as singleton if they are needed in QuickBooksService
+    services.AddSingleton(clientId);
+    services.AddSingleton(clientSecret);
+}
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
